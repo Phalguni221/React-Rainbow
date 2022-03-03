@@ -14,6 +14,11 @@ function ColorForm(props){
 
     return (
         <div>
+            <head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width,initial-scale=1" />
+                <meta name="description" content="game"/>
+            </head>
             <h1>Enter a valid color name and watch it appear on the screen! Magic!!</h1>
             <form onSubmit={handleSubmit}>
                 <input type="text" minLength="3" maxLength="20" 
