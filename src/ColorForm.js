@@ -16,7 +16,7 @@ function ColorForm(props){
         <div>
             <head>
                 <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width,initial-scale=0.5" />
+                <meta name="viewport" content="width=device-width,initial-scale=0.2" />
                 <meta name="description" content="game"/>
             </head>
             <h1>Enter a valid color name and watch it appear on the screen! Magic!!</h1>

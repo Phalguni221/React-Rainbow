@@ -5,7 +5,7 @@ function ColorBlock(props){
         <div className="colorBlock"
         style={{'backgroundColor': props.color}}>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=0.5" />
+        <meta name="viewport" content="width=device-width,initial-scale=0.2" />
         <meta name="description" content="game"/>
             <p>{props.color}</p>
         </div>
