@@ -5,7 +5,7 @@ function ColorForm(props){
     let [input, setInput] = useState('')
 
     const handleSubmit = (e) => {
-        // We still want to eliminate the default behavior of our form submittal
+        // Eliminate the default behavior of our form submittal
         e.preventDefault()
         setInput("")
         // addColor, the function we just built, should be available within props.
@@ -16,7 +16,7 @@ function ColorForm(props){
         <div>
             <head>
                 <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width,initial-scale=1" />
+                <meta name="viewport" content="width=device-width,initial-scale=0.5" />
                 <meta name="description" content="game"/>
             </head>
             <h1>Enter a valid color name and watch it appear on the screen! Magic!!</h1>
